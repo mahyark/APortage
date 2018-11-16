@@ -12,4 +12,9 @@ public class Location {
         this.abbreviation = abbreviation;
     }
 
+    @Override
+    public String toString(){
+        return this.name + " " + this.abbreviation;
+    }
+
 }
